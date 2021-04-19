@@ -1,0 +1,20 @@
+{
+  "test": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-starfall-test-131902-authRole",
+      "UnauthRoleArn": "arn:aws:iam::380493199488:role/amplify-starfall-test-131902-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::380493199488:role/amplify-starfall-test-131902-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-starfall-test-131902-deployment",
+      "UnauthRoleName": "amplify-starfall-test-131902-unauthRole",
+      "StackName": "amplify-starfall-test-131902",
+      "StackId": "arn:aws:cloudformation:eu-central-1:380493199488:stack/amplify-starfall-test-131902/5aa4cd30-95f8-11eb-8132-028c5bff5b40",
+      "AmplifyAppId": "d5pxeea4q319u"
+    },
+    "categories": {
+      "auth": {
+        "starfall8702c452": {}
+      }
+    }
+  }
+}

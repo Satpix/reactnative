@@ -1,0 +1,37 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-starfall-test-131902-authRole",
+      "UnauthRoleArn": "arn:aws:iam::380493199488:role/amplify-starfall-test-131902-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::380493199488:role/amplify-starfall-test-131902-authRole",
+      "Region": "eu-central-1",
+      "DeploymentBucketName": "amplify-starfall-test-131902-deployment",
+      "UnauthRoleName": "amplify-starfall-test-131902-unauthRole",
+      "StackName": "amplify-starfall-test-131902",
+      "StackId": "arn:aws:cloudformation:eu-central-1:380493199488:stack/amplify-starfall-test-131902/5aa4cd30-95f8-11eb-8132-028c5bff5b40",
+      "AmplifyAppId": "d5pxeea4q319u"
+    }
+  },
+  "auth": {
+    "starfall8702c452": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-starfall-test-131902-deployment/amplify-cfn-templates/auth/starfall8702c452-cloudformation-template.yml",
+        "logicalId": "authstarfall8702c452"
+      },
+      "lastPushTimeStamp": "2021-04-05T10:27:12.828Z",
+      "output": {
+        "UserPoolId": "eu-central-1_JUHV7OARV",
+        "AppClientIDWeb": "312islnf8nnto9ejgpio61okh5",
+        "AppClientID": "1kjn2m79du0uphu7j81dn1n4a3",
+        "IdentityPoolId": "eu-central-1:e26e2175-5372-4e19-bbd8-334a375c3b45",
+        "IdentityPoolName": "starfall8702c452_identitypool_8702c452__test",
+        "UserPoolName": "starfall8702c452_userpool_8702c452"
+      },
+      "lastPushDirHash": "IQn6EpekIk4fpYvUhfALD7SJ8XY="
+    }
+  }
+}
